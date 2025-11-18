@@ -5,7 +5,8 @@ public class D {
 	private E next;
 	
 	public D(E next) {
-	   this.next = next;
+
+		this.next = next;
 	}
 	
 	public String process(String prefix) {

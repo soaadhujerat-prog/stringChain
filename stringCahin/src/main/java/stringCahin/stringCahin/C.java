@@ -4,7 +4,7 @@ public class C {
 	 private D next;
 
 	 public C(D next) {
-	     this.next = next;
+		 this.next = next;
 	 }
 
 	 public String process(String prefix) {

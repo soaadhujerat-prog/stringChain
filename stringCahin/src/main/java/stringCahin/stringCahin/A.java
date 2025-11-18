@@ -5,6 +5,7 @@ public class A {
  private B next;
 
  public A(B next) {
+
      this.next = next;
  }
 

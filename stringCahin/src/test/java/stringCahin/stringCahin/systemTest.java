@@ -1,18 +1,19 @@
 package stringCahin.stringCahin;
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
+
+// בדיקה מערכת
 public class systemTest {
 	@Test
+	//בדיקת End-to-End שמוודאת שהשרשרת המלאה מחזירה HELLO
     public void testRunEndToEnd() {
-        // יוצרים סטאב של D
+
 	    ChainMain runner = new ChainMain();
-        // יוצרים את C עם הסטאב
+
 	    String result=runner.run();
+
 	    assertEquals("HELLO", result);
 
-        // קוראים ל־C — לא לסטאב!
-       
     }
 
 }

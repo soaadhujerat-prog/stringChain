@@ -14,6 +14,9 @@ public class CUnitTest {
         String result = c.process("HE");
 
         // מאמתים את הפלט
+        // C מוסיף האות "L"
+        // הסטאב מוסיף X
         assertEquals("HELX", result);
     }
+
 }

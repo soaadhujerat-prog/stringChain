@@ -1,10 +1,6 @@
 package stringCahin.stringCahin;
 
-
-
 public class ChainMain {
-	
-
 
 	public String run() {
         // יצירת השרשרת לפי הסדר הנכון
@@ -18,7 +14,8 @@ public class ChainMain {
         String result = a.process("");
 
         // הדפסת התוצאה הסופית למסך
-        return result;    }
+        return result;
+    }
 
 }
 
